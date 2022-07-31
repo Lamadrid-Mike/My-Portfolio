@@ -1,0 +1,13 @@
+$bg-color:"black";
+$avatar-color:skyblue;
+
+
+.footerContainer{
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    .icon{
+        font-size: 2.1rem;
+    }
+}
