@@ -1,0 +1,42 @@
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 0px;
+  display: flex;
+  height: 20px;
+  width: 125px;
+}
+
+.progress-value {
+  animation: CSS 3s normal forwards;
+  box-shadow: 0 10px 40px -10px skyblue;
+  border-radius: 100px;
+  background: skyblue;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes CSS {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  gap: 1.5em;
+}
+
+.skill-parent-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

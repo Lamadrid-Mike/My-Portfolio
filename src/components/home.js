@@ -3,6 +3,7 @@ import "./home.scss";
 import Logo from "./avatar.jpg";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
+import Fade from "react-reveal/Fade";
 
 class Home extends React.Component {
   render() {

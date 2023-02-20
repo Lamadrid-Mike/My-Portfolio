@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.about-container div {
+.about-container .about-profile {
   align-self: start;
 }
 

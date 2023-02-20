@@ -5,6 +5,7 @@
 }
 
 .back-arrow {
+  z-index: 1;
   width: 40px;
   height: 40px;
   top: 8%;
