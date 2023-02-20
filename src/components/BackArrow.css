@@ -1,0 +1,47 @@
+.back-arrow,
+.back-arrow:before {
+  position: absolute;
+  left: 90%;
+}
+
+.back-arrow {
+  width: 40px;
+  height: 40px;
+  top: 8%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(135deg);
+  border-left: none;
+  border-top: none;
+  border-right: 3px skyblue solid;
+  border-bottom: 3px skyblue solid;
+}
+
+.back-arrow:hover {
+  cursor: pointer;
+}
+
+.back-arrow:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 80%;
+  margin: -5px 0px 0px -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 10px);
+  }
+}

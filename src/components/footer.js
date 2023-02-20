@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="footerContainer">
+    <footer className="footerContainer">
       <div className="icon">
         <GoMarkGithub />
       </div>
@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="icon">
         <BsFacebook />
       </div>
-    </div>
+    </footer>
   );
 };
 

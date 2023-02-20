@@ -1,15 +1,17 @@
-$bg-color:"black";
-$avatar-color:skyblue;
+$bg-color: "black";
+$avatar-color: skyblue;
 
+.footerContainer {
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
 
-.footerContainer{
-    padding-top: 3rem;
-    background-color: $bg-color;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    
-    .icon{
-        font-size: 2.1rem;
-    }
+  .icon {
+    font-size: 2.1rem;
+  }
 }
