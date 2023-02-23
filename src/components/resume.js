@@ -8,15 +8,18 @@ import {
   faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import Footer from "./footer";
+import BackArrow from "./BackArrow";
+import { Link } from "react-router-dom";
 
+// page
 class Resume extends React.Component {
   render() {
     return (
       <>
+        <Link to="/">
+          <BackArrow />
+        </Link>
         <div className="resume">
-          <div className="tittle">
-            <h2>Full Stack Web Developer</h2>
-          </div>
           <div className="contactInfo">
             <h3>Mike Lamadrid</h3>
             <p>

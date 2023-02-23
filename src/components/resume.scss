@@ -2,12 +2,10 @@ $bg-color: "black";
 $avatar-color: skyblue;
 
 .resume {
-  height: 650px;
-  width: auto;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(8, 60px);
+  grid-template-columns: 1fr repeat(4);
+  grid-template-rows: repeat(8, 50px);
   margin: 10px;
   gap: 10px;
   animation: fadeInAnimation ease 2s;
@@ -21,20 +19,12 @@ $avatar-color: skyblue;
       opacity: 1;
     }
   }
-  .tittle {
-    background-color: grey;
-    grid-column-start: 1;
-    grid-column-end: 6;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-  }
+
   .contactInfo {
     text-align: center;
     border: 2px solid skyblue;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-column: 1 / 5;
+    grid-row: 3 / 6;
     border-radius: 10px;
     p {
       letter-spacing: 1px;

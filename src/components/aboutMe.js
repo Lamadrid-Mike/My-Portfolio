@@ -26,11 +26,12 @@ const About = function () {
               <h4>Web Developer</h4>
             </div>
             <div className="about-text">
-              Always in love with coding, took the stand and decided to join a
-              bootcamp a while ago and, today I still learning Javascript.
+              I made a decision to enroll at a bootcamp because I've always been
+              interested in coding. I recently attended bootcamp, and I'm still
+              learning Javascript till today.
             </div>
             <div className="skill-parent-container">
-              <h4>Skills</h4>
+              <h3>SKILLS</h3>
               <div className="skill-container">
                 <ProgressBar type="CSS" percentage={90} />
                 <ProgressBar type="HTML" percentage={80} />

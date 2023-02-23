@@ -11,28 +11,19 @@
 }
 
 .progress-value {
-  animation: CSS 3s normal forwards;
   box-shadow: 0 10px 40px -10px skyblue;
   border-radius: 100px;
   background: skyblue;
   height: 20px;
   width: 0;
-}
-
-@keyframes CSS {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 50%;
-  }
+  line-height: 30px;
 }
 
 .skill-container {
   display: flex;
   justify-content: space-around;
-  margin: 10px;
-  gap: 1.5em;
+  margin: 0.9em;
+  gap: 2em;
 }
 
 .skill-parent-container {

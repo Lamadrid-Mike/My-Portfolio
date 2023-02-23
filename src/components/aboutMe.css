@@ -1,6 +1,6 @@
 .about-h1 {
   text-align: start;
-  margin-left: 5vh;
+  margin: 1.4em;
 }
 
 .about-container {
@@ -12,14 +12,19 @@
   gap: 2em;
 }
 
+.about-profile h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .about-container img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  border: 7px solid skyblue;
+  border: 3px solid skyblue;
 }
 
-.about-container h4 {
+.about-container h3 {
   text-align: center;
 }
 
@@ -29,4 +34,5 @@
 
 .about-text {
   text-align: end;
+  line-height: 20px;
 }
