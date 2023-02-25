@@ -1,0 +1,44 @@
+.projects-container {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  gap: 0.2em;
+}
+
+.first-project-logo {
+  grid-column: 2 / 3;
+  grid-row: 2 / 2;
+}
+
+.second-project-logo {
+  grid-column: 3 /2;
+  grid-row: 4 / 3;
+}
+
+.first-project-desc {
+  grid-column: 4 / 7;
+  grid-row: 2 / 2;
+}
+
+.second-project-desc {
+  grid-column: 4 / 7;
+  grid-row: 3 / 5;
+}
+
+.logo-properties {
+  justify-self: center;
+  align-self: center;
+  width: 70px;
+  height: auto;
+  animation: spin linear infinite 6000ms;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
