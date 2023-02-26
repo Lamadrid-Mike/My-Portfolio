@@ -12,16 +12,27 @@ const Projects = function (props) {
         <BackArrow />
       </Link>
       <div className="projects-container">
-        <img src={ReactLogo} className="first-project-logo logo-properties" />
-        <p className="first-project-desc">
-          Implemented React.js for this project, my main goal was to make it
-          mobile responsive, and creation of the footer.
-        </p>
-        <img src={JsLogo} className="second-project-logo logo-properties" />
-        <p className="second-project-desc">
-          Created a shopping cart with Vainilla javascript Dom manipulation
-          implemented 😀
-        </p>
+        <div className="projects-cards">
+          <img src={ReactLogo} className="first-project-logo logo-properties" />
+          <p className="align-text">
+            Implemented React.js for this project, my main goal was to make it
+            mobile responsive, and creation of the footer.
+          </p>
+        </div>
+        <div className="projects-cards">
+          <img src={ReactLogo} className="first-project-logo logo-properties" />
+          <p className="align-text">
+            Implemented React.js for this project, my main goal was to make it
+            mobile responsive, and creation of the footer.
+          </p>
+        </div>
+        <div className="projects-cards">
+          <img src={ReactLogo} className="first-project-logo logo-properties" />
+          <p className="align-text">
+            Implemented React.js for this project, my main goal was to make it
+            mobile responsive, and creation of the footer.
+          </p>
+        </div>
       </div>
     </>
   );

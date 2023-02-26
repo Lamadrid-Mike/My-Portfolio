@@ -1,35 +1,29 @@
 .projects-container {
-  margin: 1em;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(6, 100px);
   gap: 0.2em;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
 }
 
-.first-project-logo {
-  grid-column: 2 / 3;
-  grid-row: 2 / 2;
+.projects-cards {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: minmax(100px, 150px);
 }
 
-.second-project-logo {
-  grid-column: 3 /2;
-  grid-row: 4 / 3;
-}
-
-.first-project-desc {
-  grid-column: 4 / 7;
-  grid-row: 2 / 2;
-}
-
-.second-project-desc {
-  grid-column: 4 / 7;
-  grid-row: 3 / 5;
+.align-text {
+  justify-self: right;
+  align-self: center;
+  font-size: clamp(0.7em, 0.9em, 2em);
 }
 
 .logo-properties {
   justify-self: center;
   align-self: center;
-  width: 70px;
+  width: 100%;
+  max-width: 50px;
   height: auto;
   animation: spin linear infinite 6000ms;
 }
