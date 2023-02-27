@@ -26,9 +26,9 @@ const About = function () {
               <h4>Web Developer</h4>
             </div>
             <div className="about-text">
-              I made a decision to enroll at a bootcamp because I've always been
-              interested in coding. I recently attended bootcamp, and I'm still
-              learning Javascript till today.
+              Coding has always caught my eye, so I made the decision to enroll
+              in a bootcamp. I haven't looked back since, love learning new
+              programming skills every day.
             </div>
             <div className="skill-parent-container">
               <h3>SKILLS</h3>

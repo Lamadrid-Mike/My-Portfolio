@@ -6,7 +6,6 @@
   grid-template-columns: 40% 60%;
   grid-template-rows: repeat(3, 45px);
   border-radius: 20px;
-  box-shadow: 0px 0px 16px skyblue;
 }
 
 .contact-container span {
