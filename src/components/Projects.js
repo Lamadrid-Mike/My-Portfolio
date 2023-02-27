@@ -14,24 +14,11 @@ const Projects = function (props) {
       <div className="projects-container">
         <div className="projects-cards">
           <img src={ReactLogo} className="first-project-logo logo-properties" />
-          <p className="align-text">
-            Implemented React.js for this project, my main goal was to make it
-            mobile responsive, and creation of the footer.
-          </p>
-        </div>
-        <div className="projects-cards">
-          <img src={ReactLogo} className="first-project-logo logo-properties" />
-          <p className="align-text">
-            Implemented React.js for this project, my main goal was to make it
-            mobile responsive, and creation of the footer.
-          </p>
-        </div>
-        <div className="projects-cards">
-          <img src={ReactLogo} className="first-project-logo logo-properties" />
-          <p className="align-text">
-            Implemented React.js for this project, my main goal was to make it
-            mobile responsive, and creation of the footer.
-          </p>
+          <h1 className="align-text">
+            {/* Implemented React.js for this project, my main goal was to make it
+            mobile responsive, and creation of the footer. */}
+            Work in progress...
+          </h1>
         </div>
       </div>
     </>

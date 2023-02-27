@@ -16,14 +16,14 @@
 .align-text {
   justify-self: right;
   align-self: center;
-  font-size: clamp(0.7em, 0.9em, 2em);
+  font-size: 4vmin;
 }
 
 .logo-properties {
   justify-self: center;
   align-self: center;
   width: 100%;
-  max-width: 50px;
+  max-width: 60px;
   height: auto;
   animation: spin linear infinite 6000ms;
 }
