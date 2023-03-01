@@ -1,9 +1,6 @@
 .contact-container {
-  position: fixed;
-  top: 40%;
-  left: 50%;
+  margin: 40% 1em;
   min-width: 320px;
-  transform: translate(-50%, -50%);
   display: grid;
   border: 4px solid skyblue;
   grid-template-columns: minmax(200px, 600px);
