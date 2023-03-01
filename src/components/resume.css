@@ -20,12 +20,19 @@
   height: auto;
   border-radius: 50%;
   justify-self: center;
+  box-shadow: 1px 1px 29px #767676;
+  margin: 0.5em;
 }
 
 .contact-container a,
 p {
   text-decoration: none;
   color: skyblue;
-  font-size: 3.5vmin;
+  font-size: 4vmin;
   text-align: center;
+}
+
+.contact-h1 {
+  margin-left: 0.5em;
+  margin-top: 1em;
 }

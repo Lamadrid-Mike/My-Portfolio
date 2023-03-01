@@ -1,11 +1,10 @@
-$bg-color: "black";
 $avatar-color: skyblue;
 
 .footerContainer {
-  background-color: $bg-color;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 2.5em;
   gap: 1em;
   .icon {
     font-size: 2rem;
