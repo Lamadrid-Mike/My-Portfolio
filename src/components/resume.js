@@ -17,22 +17,22 @@ class Resume extends React.Component {
         </Link>
         <div className="contact-container">
           <img src={Logo} />
-          <span>
-            <FontAwesomeIcon className="icon" icon={faUser} />
-            Mike Lamadrid
-          </span>
-          <br />
-          <span>
-            <FontAwesomeIcon className="icon" icon={faEnvelope} />
-            <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
-              mikealamadrid@hotmail.com
-            </a>
-          </span>
-          <br />
-          <span>
-            <FontAwesomeIcon className="icon" icon={faPhone} />
-            <a href="tel:862-888-4791">862-888-4791</a>
-          </span>
+          <div className="contact-info">
+            <p>
+              <FontAwesomeIcon className="icon" icon={faUser} />
+              Mike Lamadrid
+            </p>
+            <p>
+              <FontAwesomeIcon className="icon" icon={faEnvelope} />
+              <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
+                mikealamadrid@hotmail.com
+              </a>
+            </p>
+            <p>
+              <FontAwesomeIcon className="icon" icon={faPhone} />
+              <a href="tel:862-888-4791">862-888-4791</a>
+            </p>
+          </div>
         </div>
         <Footer />
       </>

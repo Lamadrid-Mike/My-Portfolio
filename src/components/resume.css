@@ -1,34 +1,34 @@
 .contact-container {
-  margin: 40% 0.5em;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  min-width: 320px;
+  transform: translate(-50%, -50%);
   display: grid;
-  max-width: 500px;
   border: 4px solid skyblue;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: repeat(3, 45px);
+  grid-template-columns: minmax(200px, 600px);
   border-radius: 20px;
-}
-
-.contact-container span {
-  grid-column: 2 / 2;
-  align-self: center;
-  justify-self: start;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 1px 1px 29px #767676;
 }
 
 .contact-container .icon {
-  font-size: 3vmin;
+  font-size: 4vmin;
   margin-right: 0.5em;
 }
 
 .contact-container img {
-  grid-row: 1 / 1;
   width: 130px;
   height: auto;
   border-radius: 50%;
   justify-self: center;
-  box-shadow: 1px 1px 29px #888888;
 }
 
-.contact-container a {
+.contact-container a,
+p {
   text-decoration: none;
   color: skyblue;
+  font-size: 3.5vmin;
+  text-align: center;
 }

@@ -3,11 +3,13 @@ $avatar-color: skyblue;
 
 .footerContainer {
   background-color: $bg-color;
-  margin: 3em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1em;
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
   .icon {
     font-size: 2rem;
   }
