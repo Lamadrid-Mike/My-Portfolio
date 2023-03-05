@@ -23,7 +23,15 @@ class Resume extends React.Component {
   }
 
   resumeBtn = () => {
-    this.setState({ btnPressed: true });
+    fetch("Mike-Resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Mike-Resume.pdf";
+        alink.click();
+      });
+    });
   };
 
   render() {
