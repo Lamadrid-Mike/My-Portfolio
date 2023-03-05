@@ -1,5 +1,5 @@
 .contact-container {
-  margin: 40% 1em;
+  margin: 40% 0 1em;
   min-width: 320px;
   display: grid;
   border: 4px solid skyblue;
@@ -7,10 +7,9 @@
   border-radius: 20px;
   justify-content: center;
   justify-items: center;
-  box-shadow: 1px 1px 29px #767676;
 }
 
-.contact-container .icon {
+.icon {
   font-size: 4vmin;
   margin-right: 0.5em;
 }
@@ -20,8 +19,8 @@
   height: auto;
   border-radius: 50%;
   justify-self: center;
-  box-shadow: 1px 1px 29px #767676;
   margin: 0.5em;
+  border: 4px solid skyblue;
 }
 
 .contact-container a,
@@ -35,4 +34,19 @@ p {
 .contact-h1 {
   margin-left: 0.5em;
   margin-top: 1em;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-btn {
+  padding: 1em 3em;
+  border-radius: 10px;
+  background-color: black;
+  color: skyblue;
+  border: 3px solid skyblue;
+  font-size: 3.5vmin;
 }

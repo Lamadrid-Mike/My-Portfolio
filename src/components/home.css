@@ -1,0 +1,54 @@
+body {
+  color: skyblue;
+}
+.home-page {
+  text-align: center;
+  animation: fadeInAnimation ease forwards 1s;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-page .container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.home-page .container .avatar1 {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 6px solid skyblue;
+  width: 145px;
+  height: 145px;
+  margin: 5%;
+}
+.avatar1 img {
+  border-radius: 50%;
+}
+.home-page .text {
+  font-size: 0.8rem;
+}
+.home-page .btn {
+  margin: 2rem 5rem 4rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  gap: 1.5rem;
+}
+.btn .btns {
+  text-decoration: none;
+  margin: 0.3rem 0.6rem 0.3rem 0.6rem;
+  border-radius: 0.6rem;
+  padding: 1.2rem;
+  color: skyblue;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid white;
+}

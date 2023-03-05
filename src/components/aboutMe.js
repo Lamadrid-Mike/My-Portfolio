@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import "./aboutMe.css";
-import profilePic from "../img/profile.png";
+import profilePic from "../img/profile.jpg";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";

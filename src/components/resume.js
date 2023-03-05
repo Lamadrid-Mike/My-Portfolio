@@ -1,18 +1,34 @@
 import React from "react";
 import "./resume.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faUser,
+  faDownload,
+} from "@fortawesome/free-solid-svg-icons";
 import Footer from "./footer";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
-import Logo from "../img/profile.png";
+import Logo from "../img/profile.jpg";
 import Fade from "react-reveal/Fade";
 
 // page
 class Resume extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      btnPressed: false,
+    };
+  }
+
+  resumeBtn = () => {
+    this.setState({ btnPressed: true });
+  };
+
   render() {
     return (
-      <>
+      <div>
         <Link to="/">
           <BackArrow />
         </Link>
@@ -37,9 +53,15 @@ class Resume extends React.Component {
               </p>
             </div>
           </div>
+          <div className="btn-container">
+            <button onClick={this.resumeBtn} className="resume-btn">
+              <FontAwesomeIcon className="icon" icon={faDownload} />
+              My Resume
+            </button>
+          </div>
         </Fade>
         <Footer />
-      </>
+      </div>
     );
   }
 }
