@@ -25,7 +25,7 @@
   width: 100%;
   max-width: 60px;
   height: auto;
-  animation: spin linear infinite 6000ms;
+  animation: spin linear infinite 3000ms;
 }
 
 @keyframes spin {
