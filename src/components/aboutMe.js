@@ -37,7 +37,7 @@ const About = function () {
                 <ProgressBar type="HTML" percentage={80} />
               </div>
               <div className="skill-container">
-                <ProgressBar type="Java Script" percentage={75} />
+                <ProgressBar type="Java Script" percentage={80} />
                 <ProgressBar type="React.js" percentage={70} />
               </div>
             </div>
