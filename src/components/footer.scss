@@ -1,12 +1,10 @@
-$avatar-color: skyblue;
-
 .footerContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 2.5em;
   gap: 1em;
-  .icon {
+  .footer-icon {
     font-size: 2rem;
   }
 }

@@ -7,13 +7,13 @@ import { BsFacebook } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="footerContainer">
-      <div className="icon">
+      <div className="footer-icon">
         <GoMarkGithub />
       </div>
-      <div className="icon">
+      <div className="footer-icon">
         <GrInstagram />
       </div>
-      <div className="icon">
+      <div className="footer-icon">
         <BsFacebook />
       </div>
     </footer>
