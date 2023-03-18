@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div className="home-page">
         <div className="container">
           <div className="avatar1">
-            <img alt="logo-picture" src={avatar} />
+            <img alt="an-avatar" src={avatar} />
           </div>
         </div>
         <h2>Mike Lamadrid</h2>
