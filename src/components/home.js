@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Logo from "./avatar.jpg";
+import avatar from "./avatar.jpg";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 
@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div className="home-page">
         <div className="container">
           <div className="avatar1">
-            <img alt="logo-picture" src={Logo} />
+            <img alt="logo-picture" src={avatar} />
           </div>
         </div>
         <h2>Mike Lamadrid</h2>

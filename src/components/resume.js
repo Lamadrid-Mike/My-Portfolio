@@ -10,7 +10,7 @@ import {
 import Footer from "./footer";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
-import Logo from "../img/profile.jpg";
+import avatar from "../img/profile.jpg";
 
 // page
 class Resume extends React.Component {
@@ -41,7 +41,7 @@ class Resume extends React.Component {
         </Link>
         <h1 className="contact-h1">Contact me...</h1>
         <div className="contact-container">
-          <img alt="logo-picture" src={Logo} />
+          <img alt="logo-picture" src={avatar} />
           <div className="contact-info">
             <p>
               <FontAwesomeIcon className="icon" icon={faUser} />

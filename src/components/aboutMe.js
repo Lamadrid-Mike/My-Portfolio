@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import "./aboutMe.css";
-import profilePic from "../img/profile.jpg";
+import mySelf from "../img/profile.jpg";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
 import ProgressBar from "./ProgressBar";
@@ -20,7 +20,7 @@ const About = function () {
         </h1>
         <div className="about-container">
           <div className="about-profile">
-            <img alt="profile-picture" src={profilePic} />
+            <img alt="profile-picture" src={mySelf} />
             <h4>Web Developer</h4>
           </div>
           <div className="about-text">
