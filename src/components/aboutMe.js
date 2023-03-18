@@ -20,7 +20,7 @@ const About = function () {
         </h1>
         <div className="about-container">
           <div className="about-profile">
-            <img src={profilePic} />
+            <img alt="profile-picture" src={profilePic} />
             <h4>Web Developer</h4>
           </div>
           <div className="about-text">

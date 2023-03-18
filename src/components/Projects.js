@@ -12,7 +12,11 @@ const Projects = function (props) {
       </Link>
       <div className="projects-container">
         <div className="projects-cards">
-          <img src={Loading} className="first-project-logo logo-properties" />
+          <img
+            alt="loading-logo"
+            src={Loading}
+            className="first-project-logo logo-properties"
+          />
           <h1 className="align-text">
             {/* Implemented React.js for this project, my main goal was to make it
             mobile responsive, and creation of the footer. */}

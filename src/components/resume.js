@@ -41,7 +41,7 @@ class Resume extends React.Component {
         </Link>
         <h1 className="contact-h1">Contact me...</h1>
         <div className="contact-container">
-          <img src={Logo} />
+          <img alt="logo-picture" src={Logo} />
           <div className="contact-info">
             <p>
               <FontAwesomeIcon className="icon" icon={faUser} />
