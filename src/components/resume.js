@@ -11,7 +11,7 @@ import Footer from "./footer";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
 import avatar from "../img/profile.jpg";
-import { Slide } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 
 class Resume extends React.Component {
   constructor(props) {
@@ -40,33 +40,41 @@ class Resume extends React.Component {
           <BackArrow />
         </Link>
         <h1 className="contact-h1">Contact me...</h1>
-        <Slide>
-          <div className="contact-container">
-            <img alt="logo" src={avatar} />
-            <div className="contact-info">
-              <p>
-                <FontAwesomeIcon className="icon" icon={faUser} />
-                Mike Lamadrid
-              </p>
-              <p>
-                <FontAwesomeIcon className="icon" icon={faEnvelope} />
-                <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
-                  mikealamadrid@hotmail.com
-                </a>
-              </p>
-              <p>
-                <FontAwesomeIcon className="icon" icon={faPhone} />
-                <a href="tel:862-888-4791">862-888-4791</a>
-              </p>
-            </div>
+        <motion.div
+          className="contact-container"
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 0.5 }}
+        >
+          <img alt="logo" src={avatar} />
+          <div className="contact-info">
+            <p>
+              <FontAwesomeIcon className="icon" icon={faUser} />
+              Mike Lamadrid
+            </p>
+            <p>
+              <FontAwesomeIcon className="icon" icon={faEnvelope} />
+              <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
+                mikealamadrid@hotmail.com
+              </a>
+            </p>
+            <p>
+              <FontAwesomeIcon className="icon" icon={faPhone} />
+              <a href="tel:862-888-4791">862-888-4791</a>
+            </p>
           </div>
-          <div className="btn-container">
-            <button onClick={this.resumeBtn} className="resume-btn">
-              <FontAwesomeIcon className="icon" icon={faDownload} />
-              My Resume
-            </button>
-          </div>
-        </Slide>
+        </motion.div>
+        <motion.div
+          className="btn-container"
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 0.6 }}
+        >
+          <button onClick={this.resumeBtn} className="resume-btn">
+            <FontAwesomeIcon className="icon" icon={faDownload} />
+            My Resume
+          </button>
+        </motion.div>
         <Footer />
       </div>
     );
