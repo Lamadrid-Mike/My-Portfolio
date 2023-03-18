@@ -4,8 +4,8 @@ import "./aboutMe.css";
 import mySelf from "../img/profile.jpg";
 import BackArrow from "./BackArrow";
 import { Link } from "react-router-dom";
-import ProgressBar from "./ProgressBar";
 import { motion } from "framer-motion";
+import ProgressBar from "./ProgressBar";
 
 const About = function () {
   return (
@@ -16,7 +16,7 @@ const About = function () {
       <motion.div
         initial={{ x: "-100%" }}
         animate={{ x: "0%" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.6 }}
       >
         <h1 className="about-h1">
           Hello

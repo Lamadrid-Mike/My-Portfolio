@@ -1,16 +1,11 @@
 .projects-container {
-  gap: 0.2em;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 500px;
-}
-
-.projects-cards {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: minmax(100px, 150px);
+  margin-top: 10em;
+  margin-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
 .align-text {

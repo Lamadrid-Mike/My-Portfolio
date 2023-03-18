@@ -1,0 +1,15 @@
+.card-projects {
+  min-width: 300px;
+  height: 110px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr;
+  border-left: 10px solid;
+  border-left-color: skyblue;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  color: skyblue;
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}

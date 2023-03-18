@@ -39,7 +39,7 @@ class Resume extends React.Component {
         <Link to="/">
           <BackArrow />
         </Link>
-        <h1 className="contact-h1">Contact me...</h1>
+        <h1 className="about-h1">Contact me...</h1>
         <motion.div
           className="contact-container"
           initial={{ x: "-100%" }}
