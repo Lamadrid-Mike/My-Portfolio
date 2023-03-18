@@ -31,7 +31,6 @@
   width: 150px;
   height: 150px;
   border: 5px solid;
-  animation: border-glow 5s forwards;
 }
 
 .about-container h3 {
