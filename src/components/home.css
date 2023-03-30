@@ -35,7 +35,8 @@ body {
   font-size: 0.8rem;
 }
 .home-page .btn {
-  margin: 2rem 5rem 4rem 5rem;
+  margin: 3em;
+  justify-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3fr;
@@ -43,9 +44,9 @@ body {
 }
 .btn .btns {
   text-decoration: none;
-  margin: 0.3rem 0.6rem 0.3rem 0.6rem;
+  min-width: 200px;
+  padding: 1em;
   border-radius: 0.6rem;
-  padding: 1.2rem;
   color: skyblue;
   font-size: 1.2rem;
   font-weight: bold;
