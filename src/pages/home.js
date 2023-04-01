@@ -1,8 +1,8 @@
 import React from "react";
-import "./home.css";
-import avatar from "./avatar.jpg";
+import "../styles/home.css";
+import avatar from "../img/avatar.jpg";
 import { Link } from "react-router-dom";
-import Footer from "./footer";
+import Footer from "../components/footer";
 
 class Home extends React.Component {
   render() {

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./Projects.css";
-import BackArrow from "./BackArrow";
-import Footer from "./footer";
-import Cards from "./Cards";
+import "../styles/Projects.css";
+import BackArrow from "../components/BackArrow";
+import Footer from "../components/footer";
+import Cards from "../components/Cards";
 import { motion } from "framer-motion";
 import jsLogo from "../img/JsLogo.png";
 import reactLogo from "../img/react-logo.png";

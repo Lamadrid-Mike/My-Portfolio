@@ -1,5 +1,5 @@
 import React from "react";
-import "./resume.css";
+import "../styles/resume.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -7,8 +7,8 @@ import {
   faUser,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
-import Footer from "./footer";
-import BackArrow from "./BackArrow";
+import Footer from "../components/footer";
+import BackArrow from "../components/BackArrow";
 import { Link } from "react-router-dom";
 import avatar from "../img/profile.jpg";
 import { motion } from "framer-motion";
@@ -40,30 +40,32 @@ class Resume extends React.Component {
           <BackArrow />
         </Link>
         <h1 className="about-h1">Contact me...</h1>
-        <motion.div
-          className="contact-container"
-          initial={{ x: "-100%" }}
-          animate={{ x: "0%" }}
-          transition={{ duration: 0.5 }}
-        >
-          <img alt="logo" src={avatar} />
-          <div className="contact-info">
-            <p>
-              <FontAwesomeIcon className="icon" icon={faUser} />
-              Mike Lamadrid
-            </p>
-            <p>
-              <FontAwesomeIcon className="icon" icon={faEnvelope} />
-              <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
-                mikealamadrid@hotmail.com
-              </a>
-            </p>
-            <p>
-              <FontAwesomeIcon className="icon" icon={faPhone} />
-              <a href="tel:862-888-4791">862-888-4791</a>
-            </p>
-          </div>
-        </motion.div>
+        <div className="contact-parent-container">
+          <motion.div
+            className="contact-container"
+            initial={{ x: "-100%" }}
+            animate={{ x: "0%" }}
+            transition={{ duration: 0.5 }}
+          >
+            <img alt="logo" src={avatar} />
+            <div className="contact-info">
+              <p>
+                <FontAwesomeIcon className="icon" icon={faUser} />
+                Mike Lamadrid
+              </p>
+              <p>
+                <FontAwesomeIcon className="icon" icon={faEnvelope} />
+                <a href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body=">
+                  mikealamadrid@hotmail.com
+                </a>
+              </p>
+              <p>
+                <FontAwesomeIcon className="icon" icon={faPhone} />
+                <a href="tel:862-888-4791">862-888-4791</a>
+              </p>
+            </div>
+          </motion.div>
+        </div>
         <motion.div
           className="btn-container"
           initial={{ x: "-100%" }}

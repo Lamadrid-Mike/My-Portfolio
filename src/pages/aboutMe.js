@@ -1,15 +1,15 @@
 import React from "react";
-import Footer from "./footer";
-import "./aboutMe.css";
+import Footer from "../components/footer";
+import "../styles/aboutMe.css";
 import mySelf from "../img/profile.jpg";
-import BackArrow from "./BackArrow";
+import BackArrow from "../components/BackArrow";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "../components/ProgressBar";
 
 const About = function () {
   return (
-    <>
+    <div className="about-me-parent-container">
       <Link to="/">
         <BackArrow />
       </Link>
@@ -47,7 +47,7 @@ const About = function () {
         </div>
       </motion.div>
       <Footer />
-    </>
+    </div>
   );
 };
 

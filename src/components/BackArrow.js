@@ -1,5 +1,5 @@
 import React from "react";
-import "./BackArrow.css";
+import "../styles/BackArrow.css";
 
 const BackArrow = function () {
   return <div className="back-arrow"></div>;
