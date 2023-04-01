@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-React/static/css/main.1b02dc67.css",
-    "main.js": "/My-Portfolio-React/static/js/main.b3e89f0c.js",
+    "main.css": "/My-Portfolio-React/static/css/main.b13f388f.css",
+    "main.js": "/My-Portfolio-React/static/js/main.2d3a7dc5.js",
     "static/media/profile.jpg": "/My-Portfolio-React/static/media/profile.cb9e3c160df615dde6be.jpg",
     "static/media/avatar.jpg": "/My-Portfolio-React/static/media/avatar.8a8340b0faa6d7576caf.jpg",
     "static/media/todo-logo.png": "/My-Portfolio-React/static/media/todo-logo.8b5babc731d5bef5e284.png",
@@ -9,11 +9,11 @@
     "static/media/clock-in-logo.png": "/My-Portfolio-React/static/media/clock-in-logo.c4b7559dadf676a16d72.png",
     "static/media/react-logo.png": "/My-Portfolio-React/static/media/react-logo.20adfb35ae6a6e5817bf.png",
     "index.html": "/My-Portfolio-React/index.html",
-    "main.1b02dc67.css.map": "/My-Portfolio-React/static/css/main.1b02dc67.css.map",
-    "main.b3e89f0c.js.map": "/My-Portfolio-React/static/js/main.b3e89f0c.js.map"
+    "main.b13f388f.css.map": "/My-Portfolio-React/static/css/main.b13f388f.css.map",
+    "main.2d3a7dc5.js.map": "/My-Portfolio-React/static/js/main.2d3a7dc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b02dc67.css",
-    "static/js/main.b3e89f0c.js"
+    "static/css/main.b13f388f.css",
+    "static/js/main.2d3a7dc5.js"
   ]
 }
