@@ -61,7 +61,7 @@ class Resume extends React.Component {
               </p>
               <p>
                 <FontAwesomeIcon className="icon" icon={faPhone} />
-                <a href="tel:862-888-4791">862-888-4791</a>
+                <a href="tel:862-249-8300">862-249-8300</a>
               </p>
             </div>
           </motion.div>
