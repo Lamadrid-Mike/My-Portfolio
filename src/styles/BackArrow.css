@@ -46,3 +46,9 @@
     transform: translate(10px, 10px);
   }
 }
+
+@media (min-width: 800px) {
+  .back-arrow {
+    display: none;
+  }
+}

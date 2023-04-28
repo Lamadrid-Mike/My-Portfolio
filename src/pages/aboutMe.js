@@ -43,6 +43,10 @@ const About = function () {
               <ProgressBar type="Java Script" percentage={80} />
               <ProgressBar type="React.js" percentage={70} />
             </div>
+            <div className="skill-container">
+              <ProgressBar type="Node.js" percentage={50} />
+              <ProgressBar type="PHP" percentage={50} />
+            </div>
           </div>
         </div>
       </motion.div>
