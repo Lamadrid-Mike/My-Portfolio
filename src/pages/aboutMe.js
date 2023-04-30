@@ -33,6 +33,7 @@ const About = function () {
             a bootcamp. I haven't looked back since, love learning new
             programming skills every day.
           </div>
+
           <div className="skill-parent-container">
             <h3>SKILLS</h3>
             <div className="skill-container">
