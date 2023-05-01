@@ -6,6 +6,7 @@ import BackArrow from "../components/BackArrow";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import ProgressBar from "../components/ProgressBar";
+import LoadingProgressBar from "../components/LoadingProgressBar";
 
 const About = function () {
   return (
@@ -45,8 +46,8 @@ const About = function () {
               <ProgressBar type="React.js" percentage={70} />
             </div>
             <div className="skill-container">
-              <ProgressBar type="Node.js" percentage={50} />
-              <ProgressBar type="PHP" percentage={50} />
+              <LoadingProgressBar type="Node.js" percentage={"Learning"} />
+              <LoadingProgressBar type="PHP" percentage={"Learning"} />
             </div>
           </div>
         </div>

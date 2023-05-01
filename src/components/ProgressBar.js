@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/ProgressBar.css";
 import styled, { keyframes } from "styled-components";
 

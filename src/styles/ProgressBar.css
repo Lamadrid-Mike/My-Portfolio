@@ -15,7 +15,7 @@
   border-radius: 100px;
   background: skyblue;
   height: 20px;
-  width: 0;
+  width: 30px;
   line-height: 30px;
 }
 
@@ -31,4 +31,5 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 2em;
+  gap: 0.1em;
 }
