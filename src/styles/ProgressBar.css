@@ -1,5 +1,5 @@
 .progress {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(220, 220, 220);
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
@@ -13,7 +13,7 @@
 .progress-value {
   box-shadow: 0 10px 40px -10px skyblue;
   border-radius: 100px;
-  background: skyblue;
+  background: rgb(72, 132, 164);
   height: 20px;
   width: 30px;
   line-height: 30px;

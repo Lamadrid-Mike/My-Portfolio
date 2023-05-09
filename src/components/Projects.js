@@ -1,8 +1,5 @@
-import { Link } from "react-router-dom";
 import "../styles/Projects.css";
-import BackArrow from "../components/BackArrow";
-import Footer from "../components/footer";
-import Cards from "../components/Cards";
+import Cards from "./Cards";
 import { motion } from "framer-motion";
 import jsLogo from "../img/JsLogo.png";
 import reactLogo from "../img/react-logo.png";
@@ -11,10 +8,7 @@ import clockInLogo from "../img/clock-in-logo.png";
 
 const Projects = function () {
   return (
-    <>
-      <Link to="/">
-        <BackArrow />
-      </Link>
+    <div>
       <h1 className="about-h1">Projects...</h1>
       <div className="projects-container">
         <motion.div
@@ -26,6 +20,8 @@ const Projects = function () {
             link="https://supermproject.netlify.app/index.html"
             src={jsLogo}
             info="Super-M Project DOM"
+            about="Implemented dom-manipulation for this project, I created a cart feature
+            that will be adding the number of products along with the final price of all the items."
           />
         </motion.div>
         <motion.div
@@ -37,6 +33,7 @@ const Projects = function () {
             link="https://nexustential.github.io/MiraclesMassage"
             src={reactLogo}
             info="Miracles-Massage"
+            about="This was one of my first projects, after I was done with my Bootcamp, we created this static website really well designed, I was in charge of the navbar and the mobile-friendly feature."
           />
         </motion.div>
         <motion.div
@@ -48,6 +45,7 @@ const Projects = function () {
             link="https://oop-todo-app.netlify.app/"
             src={todoLogo}
             info="OOP Todo app"
+            about="I built this simple todo-app using object-oriented programming with classes and capsulation, I have to admit object oriented programming is way more organized."
           />
         </motion.div>
         <motion.div
@@ -59,11 +57,11 @@ const Projects = function () {
             link="https://punch-in-app.netlify.app/"
             src={clockInLogo}
             info="Clock in app"
+            about="Again I used object-oriented programming for this app, really challenging, and learned a lot about classes, I will be soon adding a backend feature to save all the usernames and worked."
           />
         </motion.div>
       </div>
-      <Footer />
-    </>
+    </div>
   );
 };
 

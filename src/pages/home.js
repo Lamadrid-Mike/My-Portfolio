@@ -1,32 +1,16 @@
 import React from "react";
-import "../styles/home.css";
-import avatar from "../img/avatar.jpg";
-import { Link } from "react-router-dom";
-import Footer from "../components/footer";
+import "../styles/Home.css";
+import NavBar from "../components/NavBar";
+import Information from "../components/Information";
+import BasicTabs from "../components/BasicTabs";
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="home-page">
-        <div className="container">
-          <div className="avatar1">
-            <img alt="an-avatar" src={avatar} />
-          </div>
-        </div>
-        <h2>Mike Lamadrid</h2>
-        <p className="text">New Jersey, USA</p>
-        <div className="btn">
-          <Link className="btns" to="/about">
-            About me
-          </Link>
-          <Link className="btns" to="/projects">
-            Projects
-          </Link>
-          <Link className="btns" to="/resume">
-            Resume
-          </Link>
-        </div>
-        <Footer />
+      <div className="main-page">
+        <NavBar />
+        <Information />
+        <BasicTabs />
       </div>
     );
   }

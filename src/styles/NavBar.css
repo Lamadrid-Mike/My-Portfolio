@@ -1,0 +1,22 @@
+.nav-bar-container {
+  height: 4.5em;
+  margin: 0.7rem;
+  overflow: hidden;
+  background-color: rgb(59, 72, 77);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8em;
+  border-radius: 5px;
+}
+
+.nav-bar-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.nav-bar-icons-container .footer-icon {
+  font-size: 1.4rem;
+  color: white;
+}

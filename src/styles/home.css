@@ -1,8 +1,7 @@
 body {
-  color: skyblue;
+  color: white;
 }
-.home-page {
-  text-align: center;
+.main-page {
   animation: fadeInAnimation ease forwards 1s;
 }
 @keyframes fadeInAnimation {
@@ -12,44 +11,4 @@ body {
   100% {
     opacity: 1;
   }
-}
-
-.home-page .container {
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-}
-.home-page .container .avatar1 {
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  border: 6px solid skyblue;
-  width: 145px;
-  height: 145px;
-  margin: 5%;
-}
-.avatar1 img {
-  border-radius: 50%;
-}
-.home-page .text {
-  font-size: 0.8rem;
-}
-.home-page .btn {
-  margin: 3em;
-  justify-items: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 3fr;
-  gap: 1.5rem;
-}
-.btn .btns {
-  text-decoration: none;
-  min-width: 200px;
-  padding: 1em;
-  border-radius: 0.6rem;
-  color: skyblue;
-  font-size: 1.2rem;
-  font-weight: bold;
-  background-color: black;
-  border: 1px solid white;
 }

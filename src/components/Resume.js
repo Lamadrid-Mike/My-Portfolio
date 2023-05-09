@@ -7,9 +7,7 @@ import {
   faUser,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
-import Footer from "../components/footer";
-import BackArrow from "../components/BackArrow";
-import { Link } from "react-router-dom";
+
 import avatar from "../img/profile.jpg";
 import { motion } from "framer-motion";
 
@@ -36,9 +34,6 @@ class Resume extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/">
-          <BackArrow />
-        </Link>
         <h1 className="about-h1">Contact me...</h1>
         <div className="contact-parent-container">
           <motion.div
@@ -77,7 +72,6 @@ class Resume extends React.Component {
             My Resume
           </button>
         </motion.div>
-        <Footer />
       </div>
     );
   }

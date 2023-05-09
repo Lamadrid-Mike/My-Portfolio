@@ -1,14 +1,40 @@
-import "../styles/Cards.css";
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Button, CardActionArea, CardActions } from "@mui/material";
 
-const Cards = function (props) {
+export default function Cards(props) {
   return (
-    <div>
-      <a className="card-projects" target="_blank" href={props.link}>
-        <img src={props.src} style={{ width: 70 }} />
-        <h3>{props.info}</h3>
-      </a>
-    </div>
+    <Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          style={{ backgroundColor: "grey" }}
+          component="img"
+          height="140"
+          image={props.src}
+          alt={props.info}
+        />
+        <CardContent style={{ backgroundColor: "#3B3B3B" }}>
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            style={{ color: "white" }}
+          >
+            {props.info}
+          </Typography>
+          <Typography variant="body2" color="white">
+            {props.about}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions style={{ backgroundColor: "#3B3B3B" }}>
+        <Button size="small" color="primary" href={props.link} target="_blank">
+          Open
+        </Button>
+      </CardActions>
+    </Card>
   );
-};
-
-export default Cards;
+}

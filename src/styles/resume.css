@@ -4,10 +4,9 @@
 }
 
 .contact-container {
-  margin: 10% 5% 0% 5%;
   max-width: 500px;
   display: grid;
-  border: 4px solid skyblue;
+  border: 4px solid rgb(72, 132, 164);
   grid-template-columns: minmax(200px, 600px);
   border-radius: 20px;
   justify-content: center;
@@ -15,7 +14,7 @@
 }
 
 .icon {
-  font-size: 3vmin;
+  font-size: 2.8vmin;
   margin-right: 0.5em;
 }
 
@@ -25,15 +24,15 @@
   border-radius: 50%;
   justify-self: center;
   margin: 0.5em;
-  border: 4px solid skyblue;
+  border: 4px solid rgb(72, 132, 164);
 }
 
 .contact-container a,
 p {
   text-decoration: none;
-  color: skyblue;
   font-size: 16px;
   text-align: center;
+  color: white;
 }
 
 .btn-container {
@@ -43,12 +42,12 @@ p {
 }
 
 .resume-btn {
-  padding: 1em 3em;
+  padding: 1rem 2rem;
   border-radius: 10px;
-  background-color: black;
-  color: skyblue;
-  border: 3px solid skyblue;
-  font-size: 3vmin;
+  background-color: inherit;
+  color: white;
+  border: 3px solid rgb(72, 132, 164);
+  font-size: 2.8vmin;
   margin-bottom: 3em;
   margin-top: 0.5em;
 }
