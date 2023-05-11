@@ -1,10 +1,10 @@
 import "../styles/Projects.css";
 import Cards from "./Cards";
 import { motion } from "framer-motion";
-import jsLogo from "../img/JsLogo.png";
-import reactLogo from "../img/react-logo.png";
+import jsLogo from "../img/super-m.png";
+import reactLogo from "../img/miracles.png";
 import todoLogo from "../img/todo-logo.png";
-import clockInLogo from "../img/clock-in-logo.png";
+import clockInLogo from "../img/clock-in-app.png";
 
 const Projects = function () {
   return (
