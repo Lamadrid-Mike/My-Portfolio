@@ -14,9 +14,13 @@ function NavBar() {
         <Avatar alt="Mike" src={myAvatar} sx={{ width: 58, height: 58 }} />
       </div>
       <div className="nav-bar-icons-container">
-        <div className="footer-icon">
+        <a
+          href="https://github.com/Lamadrid-Mike"
+          target="_blank"
+          className="footer-icon"
+        >
           <GoMarkGithub />
-        </div>
+        </a>
         <div className="footer-icon">
           <GrInstagram />
         </div>

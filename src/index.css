@@ -1,3 +1,7 @@
+:root {
+  color-scheme: dark;
+}
+
 body {
   background-color: rgb(32, 32, 32);
   margin: 0;

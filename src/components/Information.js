@@ -1,5 +1,6 @@
 import "../styles/Information.css";
 import Skills from "./Skills";
+import EmailIcon from "@mui/icons-material/Email";
 
 function Information() {
   return (
@@ -17,6 +18,7 @@ function Information() {
               className="email-btn"
               href="mailto:mikealamadrid@hotmail.com?subject=Hello world!&body="
             >
+              <EmailIcon fontSize="small" className="email-icon" />
               mikealamadrid@hotmail.com
             </a>
             <a className="phone-btn" href="tel:862-249-8300">

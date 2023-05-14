@@ -17,11 +17,10 @@ const Projects = function () {
           transition={{ duration: 0.6 }}
         >
           <Cards
-            link="https://supermproject.netlify.app/index.html"
-            src={jsLogo}
-            info="Super-M Project DOM"
-            about="Implemented dom-manipulation for this project, I created a cart feature
-            that will be adding the number of products along with the final price of all the items."
+            link="https://nexustential.github.io/MiraclesMassage"
+            src={reactLogo}
+            info="Miracles-Massage"
+            about="This was one of my first projects, after I was done with my Bootcamp, we created this static website really well designed, I was in charge of the navbar and the mobile-friendly feature."
           />
         </motion.div>
         <motion.div
@@ -30,10 +29,11 @@ const Projects = function () {
           transition={{ duration: 0.7 }}
         >
           <Cards
-            link="https://nexustential.github.io/MiraclesMassage"
-            src={reactLogo}
-            info="Miracles-Massage"
-            about="This was one of my first projects, after I was done with my Bootcamp, we created this static website really well designed, I was in charge of the navbar and the mobile-friendly feature."
+            link="https://supermproject.netlify.app/index.html"
+            src={jsLogo}
+            info="Super-M Project DOM"
+            about="Implemented dom-manipulation for this project, I created a cart feature
+            that will be adding the number of products along with the final price of all the items."
           />
         </motion.div>
         <motion.div

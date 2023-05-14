@@ -2,12 +2,13 @@
   height: 4.5em;
   margin: 0.7rem;
   overflow: hidden;
-  background-color: rgb(59, 72, 77);
+  background-color: rgb(97, 97, 97);
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 8em;
   border-radius: 5px;
+  box-shadow: 5px 5px 10px #000000;
 }
 
 .nav-bar-icons-container {

@@ -7,6 +7,12 @@
   gap: 0.8rem;
 }
 
+.email-icon {
+  position: relative;
+  top: 4px;
+  right: 5px;
+}
+
 .left-container {
   width: 400px;
 }
@@ -23,10 +29,8 @@
 }
 
 .email-btn {
-  background-color: white;
-  color: black;
+  color: white;
   padding: 14px 10px;
-  border-radius: 3rem;
   text-decoration: none;
   margin-right: 1rem;
 }
@@ -42,5 +46,8 @@
   }
   .information-container {
     gap: 2.5rem;
+  }
+  .contact-btns {
+    text-align: center;
   }
 }
