@@ -1,0 +1,13 @@
+.skill-container {
+  display: flex;
+  gap: 1em;
+  margin: 0.9em;
+}
+
+.skill-parent-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+  gap: 0.1em;
+}

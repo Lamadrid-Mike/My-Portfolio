@@ -1,10 +1,10 @@
 .skill-box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
+  gap: 1em;
 }
 
 .skill-box {
   padding: 1em;
-  border: 1px solid blue;
+  border: 1px solid rgb(72, 132, 164);
 }
