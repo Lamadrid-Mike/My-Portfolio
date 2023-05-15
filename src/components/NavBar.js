@@ -1,6 +1,7 @@
 import * as React from "react";
 import "../styles/NavBar.css";
 import myAvatar from "../img/profile.jpg";
+import SocialIcons from "./SocialIcons";
 import { Avatar } from "@mui/material";
 import { GoMarkGithub } from "react-icons/go";
 import { GrInstagram } from "react-icons/gr";
@@ -14,22 +15,28 @@ function NavBar() {
         <Avatar alt="Mike" src={myAvatar} sx={{ width: 58, height: 58 }} />
       </div>
       <div className="nav-bar-icons-container">
-        <a
-          href="https://github.com/Lamadrid-Mike"
-          target="_blank"
-          className="footer-icon"
-        >
-          <GoMarkGithub />
-        </a>
-        <div className="footer-icon">
-          <GrInstagram />
-        </div>
-        <div className="footer-icon">
-          <BsFacebook />
-        </div>
-        <div className="footer-icon">
-          <BsLinkedin />
-        </div>
+        <SocialIcons
+          name="github"
+          link="https://github.com/Lamadrid-Mike"
+          icon={<GoMarkGithub />}
+        />
+        <SocialIcons
+          name="instagram"
+          link="https://www.instagram.com/trapcodes/"
+          icon={<GrInstagram />}
+        />
+
+        <SocialIcons
+          name="facebook"
+          link="https://www.facebook.com/zttaonline/"
+          icon={<BsFacebook />}
+        />
+
+        <SocialIcons
+          name="linkedin"
+          link="https://www.linkedin.com/in/mike-lamadrid-701521244/"
+          icon={<BsLinkedin />}
+        />
       </div>
     </div>
   );
