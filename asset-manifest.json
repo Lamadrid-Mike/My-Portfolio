@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/trapcodes/static/css/main.428f3bb3.css",
-    "main.js": "/trapcodes/static/js/main.3ae23dfa.js",
-    "static/media/profile.jpg": "/trapcodes/static/media/profile.cb9e3c160df615dde6be.jpg",
-    "static/media/miracles.png": "/trapcodes/static/media/miracles.c2860c33a5bdc07a5f08.png",
-    "static/media/super-m.png": "/trapcodes/static/media/super-m.41f44c04c533bf0f348e.png",
-    "static/media/todo-logo.png": "/trapcodes/static/media/todo-logo.8b5babc731d5bef5e284.png",
-    "static/media/clock-in-app.png": "/trapcodes/static/media/clock-in-app.9c17ae8b5622833f0e8c.png",
-    "index.html": "/trapcodes/index.html",
-    "main.428f3bb3.css.map": "/trapcodes/static/css/main.428f3bb3.css.map",
-    "main.3ae23dfa.js.map": "/trapcodes/static/js/main.3ae23dfa.js.map"
+    "main.css": "/My-Portfolio-React/static/css/main.428f3bb3.css",
+    "main.js": "/My-Portfolio-React/static/js/main.30ca6ef6.js",
+    "static/media/profile.jpg": "/My-Portfolio-React/static/media/profile.cb9e3c160df615dde6be.jpg",
+    "static/media/miracles.png": "/My-Portfolio-React/static/media/miracles.c2860c33a5bdc07a5f08.png",
+    "static/media/super-m.png": "/My-Portfolio-React/static/media/super-m.41f44c04c533bf0f348e.png",
+    "static/media/todo-logo.png": "/My-Portfolio-React/static/media/todo-logo.8b5babc731d5bef5e284.png",
+    "static/media/clock-in-app.png": "/My-Portfolio-React/static/media/clock-in-app.9c17ae8b5622833f0e8c.png",
+    "index.html": "/My-Portfolio-React/index.html",
+    "main.428f3bb3.css.map": "/My-Portfolio-React/static/css/main.428f3bb3.css.map",
+    "main.30ca6ef6.js.map": "/My-Portfolio-React/static/js/main.30ca6ef6.js.map"
   },
   "entrypoints": [
     "static/css/main.428f3bb3.css",
-    "static/js/main.3ae23dfa.js"
+    "static/js/main.30ca6ef6.js"
   ]
 }
