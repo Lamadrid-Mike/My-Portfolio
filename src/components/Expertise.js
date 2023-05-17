@@ -12,6 +12,7 @@ const skills = [
   "react.js",
   "figma",
   "scss",
+  "php",
 ];
 
 const Expertise = () => {
@@ -20,8 +21,6 @@ const Expertise = () => {
       {skills.map((el) => {
         return <div className="skill-box">{el}</div>;
       })}
-      <LoadingProgressBar type="Node.js" percentage={"Learning"} />
-      <LoadingProgressBar type="PHP" percentage={"Learning"} />
     </div>
   );
 };
