@@ -9,6 +9,14 @@
   gap: 8em;
   border-radius: 5px;
   box-shadow: 5px 5px 10px #000000;
+  transition: transform 150ms ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+div.nav-bar--hidden {
+  transform: translateY(-110%);
 }
 
 .nav-bar-icons-container {
