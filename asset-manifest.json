@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/My-Portfolio-React/static/css/main.ece43fd7.css",
-    "main.js": "/My-Portfolio-React/static/js/main.6b4a04ed.js",
+    "main.js": "/My-Portfolio-React/static/js/main.f7558c34.js",
     "static/media/profile.jpg": "/My-Portfolio-React/static/media/profile.cb9e3c160df615dde6be.jpg",
     "static/media/miracles.png": "/My-Portfolio-React/static/media/miracles.c2860c33a5bdc07a5f08.png",
     "static/media/super-m.png": "/My-Portfolio-React/static/media/super-m.41f44c04c533bf0f348e.png",
     "static/media/todo-logo.png": "/My-Portfolio-React/static/media/todo-logo.8b5babc731d5bef5e284.png",
+    "static/media/my-resume.pdf": "/My-Portfolio-React/static/media/my-resume.03c45144845f4a3ac366.pdf",
     "static/media/clock-in-app.png": "/My-Portfolio-React/static/media/clock-in-app.9c17ae8b5622833f0e8c.png",
     "index.html": "/My-Portfolio-React/index.html",
     "main.ece43fd7.css.map": "/My-Portfolio-React/static/css/main.ece43fd7.css.map",
-    "main.6b4a04ed.js.map": "/My-Portfolio-React/static/js/main.6b4a04ed.js.map"
+    "main.f7558c34.js.map": "/My-Portfolio-React/static/js/main.f7558c34.js.map"
   },
   "entrypoints": [
     "static/css/main.ece43fd7.css",
-    "static/js/main.6b4a04ed.js"
+    "static/js/main.f7558c34.js"
   ]
 }
