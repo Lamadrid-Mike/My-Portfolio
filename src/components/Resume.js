@@ -10,6 +10,7 @@ import {
 
 import avatar from "../img/profile.jpg";
 import { motion } from "framer-motion";
+import PDFdocument from "../components/my-resume.pdf";
 
 class Resume extends React.Component {
   constructor(props) {
@@ -20,12 +21,12 @@ class Resume extends React.Component {
   }
 
   resumeBtn = () => {
-    fetch("Mike-Resume.pdf").then((response) => {
+    fetch(PDFdocument).then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Mike-Resume.pdf";
+        alink.download = "my-resume.pdf";
         alink.click();
       });
     });
