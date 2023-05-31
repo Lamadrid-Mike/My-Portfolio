@@ -6,8 +6,8 @@ import UseScroll from "./UseScroll";
 import { Avatar } from "@mui/material";
 import { GoMarkGithub } from "react-icons/go";
 import { GrInstagram } from "react-icons/gr";
-import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { SiCodewars } from "react-icons/si";
 
 function NavBar() {
   const [navClassList, setNavClassList] = React.useState([]);
@@ -40,9 +40,9 @@ function NavBar() {
         />
 
         <SocialIcons
-          name="facebook"
-          link="https://www.facebook.com/zttaonline/"
-          icon={<BsFacebook />}
+          name="codewars"
+          link="https://www.codewars.com/users/trapcodes"
+          icon={<SiCodewars />}
         />
 
         <SocialIcons

@@ -1,5 +1,4 @@
 import "../styles/Expertise.css";
-import LoadingProgressBar from "./LoadingProgressBar";
 
 const skills = [
   "html",
