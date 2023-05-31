@@ -17,8 +17,12 @@ const skills = [
 const Expertise = () => {
   return (
     <div className="skill-box-container">
-      {skills.map((el) => {
-        return <div className="skill-box">{el}</div>;
+      {skills.map((el, i) => {
+        return (
+          <div key={i} className="skill-box">
+            {el}
+          </div>
+        );
       })}
     </div>
   );

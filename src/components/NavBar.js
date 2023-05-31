@@ -1,6 +1,7 @@
 import * as React from "react";
 import "../styles/NavBar.css";
 import myAvatar from "../img/profile.jpg";
+import myStamp from "../img/my-stamp.png";
 import SocialIcons from "./SocialIcons";
 import UseScroll from "./UseScroll";
 import { Avatar } from "@mui/material";
@@ -24,9 +25,11 @@ function NavBar() {
 
   return (
     <div className={`nav-bar-container ${navClassList.join(" ")}`}>
-      <div>
+      <div className="nav-bar-icons-container">
         <Avatar alt="Mike" src={myAvatar} sx={{ width: 58, height: 58 }} />
+        <img alt="stamp" src={myStamp} style={{ width: 70, height: 55 }} />
       </div>
+
       <div className="nav-bar-icons-container">
         <SocialIcons
           name="github"
