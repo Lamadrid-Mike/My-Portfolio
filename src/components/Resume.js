@@ -35,7 +35,7 @@ class Resume extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="about-h1">Contact me...</h1>
+        <h1 className="about-h1">Contact me..</h1>
         <div className="contact-parent-container">
           <motion.div
             className="contact-container"
