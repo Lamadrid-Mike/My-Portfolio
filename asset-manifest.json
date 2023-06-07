@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-React/static/css/main.8a7a5b9c.css",
-    "main.js": "/My-Portfolio-React/static/js/main.32a03e47.js",
+    "main.css": "/My-Portfolio-React/static/css/main.222a5b05.css",
+    "main.js": "/My-Portfolio-React/static/js/main.7765356e.js",
     "static/media/profile.jpg": "/My-Portfolio-React/static/media/profile.cb9e3c160df615dde6be.jpg",
     "static/media/react-challenge.png": "/My-Portfolio-React/static/media/react-challenge.0a354c415511b4fc29aa.png",
     "static/media/miracles.png": "/My-Portfolio-React/static/media/miracles.c2860c33a5bdc07a5f08.png",
@@ -10,11 +10,11 @@
     "static/media/my-resume.pdf": "/My-Portfolio-React/static/media/my-resume.03c45144845f4a3ac366.pdf",
     "static/media/clock-in-app.png": "/My-Portfolio-React/static/media/clock-in-app.9c17ae8b5622833f0e8c.png",
     "index.html": "/My-Portfolio-React/index.html",
-    "main.8a7a5b9c.css.map": "/My-Portfolio-React/static/css/main.8a7a5b9c.css.map",
-    "main.32a03e47.js.map": "/My-Portfolio-React/static/js/main.32a03e47.js.map"
+    "main.222a5b05.css.map": "/My-Portfolio-React/static/css/main.222a5b05.css.map",
+    "main.7765356e.js.map": "/My-Portfolio-React/static/js/main.7765356e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a7a5b9c.css",
-    "static/js/main.32a03e47.js"
+    "static/css/main.222a5b05.css",
+    "static/js/main.7765356e.js"
   ]
 }
