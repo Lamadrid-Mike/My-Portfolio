@@ -1,6 +1,11 @@
 const SocialIcons = (props) => {
   return (
-    <a href={props.link} target="_blank" className="footer-icon">
+    <a
+      href={props.link}
+      target="_blank"
+      rel="noreferrer"
+      className="footer-icon"
+    >
       {props.icon}
     </a>
   );
