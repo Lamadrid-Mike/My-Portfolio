@@ -5,6 +5,7 @@ import jsLogo from "../img/super-m.png";
 import reactLogo from "../img/miracles.png";
 import todoLogo from "../img/todo-logo.png";
 import clockInLogo from "../img/clock-in-app.png";
+import reactChallenge from "../img/react-challenge.png";
 
 const Projects = function () {
   return (
@@ -58,6 +59,18 @@ const Projects = function () {
             src={clockInLogo}
             info="Clock in app"
             about="Again I used object-oriented programming for this app, really challenging, and learned a lot about classes, I will be soon adding a backend feature to save all the usernames and worked."
+          />
+        </motion.div>
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 1 }}
+        >
+          <Cards
+            link="https://react-challenge-mike.netlify.app/"
+            src={reactChallenge}
+            info="Challenge Component"
+            about="For one of my interviews, I had this challenge, which is basically to call an API and then filter the data accordably to the buttons. I had to mimic the API call since Netlify gave me some problems."
           />
         </motion.div>
       </div>

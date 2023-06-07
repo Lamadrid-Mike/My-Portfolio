@@ -12,6 +12,7 @@ const skills = [
   "figma",
   "scss",
   "php",
+  "procreate",
 ];
 
 const Expertise = () => {
