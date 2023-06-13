@@ -26,7 +26,7 @@ function NavBar() {
   return (
     <div className={`nav-bar-container ${navClassList.join(" ")}`}>
       <div className="nav-bar-icons-container">
-        <Avatar alt="Mike" src={myAvatar} sx={{ width: 65, height: 65 }} />
+        <Avatar alt="Mike" src={myAvatar} sx={{ width: 66, height: 66 }} />
         <img alt="stamp" src={myStamp} style={{ width: 70, height: 55 }} />
       </div>
 
