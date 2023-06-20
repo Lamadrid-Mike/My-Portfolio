@@ -6,12 +6,25 @@ import reactLogo from "../img/miracles.png";
 import todoLogo from "../img/todo-logo.png";
 import clockInLogo from "../img/clock-in-app.png";
 import reactChallenge from "../img/react-challenge.png";
+import guessGame from "../img/guess-game.png";
 
 const Projects = function () {
   return (
     <div>
       <h1 className="about-h1">Projects...</h1>
       <div className="projects-container">
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 0.5 }}
+        >
+          <Cards
+            link="https://guess-flag-game.netlify.app/"
+            src={guessGame}
+            info="Guess Game"
+            about="This was a small project I decided to make also practice some figma, and wireframing ideas. I still working on it, and I will be adding more features soon."
+          />
+        </motion.div>
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
