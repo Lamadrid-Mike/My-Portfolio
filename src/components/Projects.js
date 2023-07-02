@@ -7,12 +7,25 @@ import todoLogo from "../img/todo-logo.png";
 import clockInLogo from "../img/clock-in-app.png";
 import reactChallenge from "../img/react-challenge.png";
 import guessGame from "../img/guess-game.png";
+import adhocProject from "../img/adhoc-project.png";
 
 const Projects = function () {
   return (
     <div>
       <h1 className="about-h1">Projects...</h1>
       <div className="projects-container">
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 0.4 }}
+        >
+          <Cards
+            link="https://adhoc-project.netlify.app/"
+            src={adhocProject}
+            info="Adhoc Project"
+            about="This is just a HTML, CSS project I decided to make a long time ago for practicing purposes, I been modifying the website little by little."
+          />
+        </motion.div>
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}

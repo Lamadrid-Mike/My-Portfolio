@@ -7,7 +7,7 @@ function Information() {
     <div>
       <div className="information-container">
         <div className="left-container">
-          <h1>Web developer / creating apps</h1>
+          <h1>Web developer / programmer</h1>
           <p className="p-information">
             Coding has always caught my eye, so I made the decision to enroll in
             a bootcamp. I haven't looked back since, love learning new
