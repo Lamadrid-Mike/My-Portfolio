@@ -24,6 +24,10 @@ function Information() {
             <a className="phone-btn" href="tel:862-249-8300">
               862-249-8300
             </a>
+            <p className="information-container__p">
+              <div className="information-container__circular-dot"></div>
+              Available for freelance / full-time
+            </p>
           </div>
         </div>
         <div className="right-container">

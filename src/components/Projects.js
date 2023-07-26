@@ -20,10 +20,11 @@ const Projects = function () {
           transition={{ duration: 0.4 }}
         >
           <Cards
-            link="https://adhoc-project.netlify.app/"
-            src={adhocProject}
-            info="Adhoc Project"
-            about="This is just a HTML, CSS project I decided to make a long time ago for practicing purposes, I been modifying the website little by little."
+            link="https://supermproject.netlify.app/index.html"
+            src={jsLogo}
+            info="Super-M Project"
+            about="Implemented dom-manipulation for this project, I created a cart feature
+            that will be adding the number of products along with the final price of all the items."
           />
         </motion.div>
         <motion.div
@@ -56,11 +57,10 @@ const Projects = function () {
           transition={{ duration: 0.7 }}
         >
           <Cards
-            link="https://supermproject.netlify.app/index.html"
-            src={jsLogo}
-            info="Super-M Project DOM"
-            about="Implemented dom-manipulation for this project, I created a cart feature
-            that will be adding the number of products along with the final price of all the items."
+            link="https://adhoc-project.netlify.app/"
+            src={adhocProject}
+            info="Adhoc Project"
+            about="This is just a HTML, CSS project I decided to make a long time ago for practicing purposes, I been modifying the website little by little."
           />
         </motion.div>
         <motion.div

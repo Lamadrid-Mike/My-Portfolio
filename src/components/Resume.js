@@ -7,7 +7,6 @@ import {
   faUser,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
-
 import avatar from "../img/profile.jpg";
 import { motion } from "framer-motion";
 import PDFdocument from "../components/my-resume.pdf";

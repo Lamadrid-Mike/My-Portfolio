@@ -57,3 +57,17 @@
     text-align: center;
   }
 }
+
+.information-container__p {
+  font-size: 0.9rem;
+}
+
+.information-container__circular-dot {
+  height: 9px;
+  width: 9px;
+  background-color: #51ff0d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  box-shadow: 0 0 5px 0px #51ff0d;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-
 import NavBar from "./components/NavBar";
 import Information from "./components/Information";
 import BasicTabs from "./components/BasicTabs";
