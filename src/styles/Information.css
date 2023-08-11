@@ -63,10 +63,10 @@
 }
 
 @keyframes pulseEffect {
-  from{
+  from {
     box-shadow: 0 0 5px 0px #51ff0d;
   }
-  to{
+  to {
     box-shadow: 0 0 12px 0px #51ff0d;
   }
 }
@@ -79,7 +79,7 @@
   display: inline-block;
   margin-right: 5px;
   animation-name: pulseEffect;
-  animation-timing-function:ease-in-out;
-  animation-duration: 1.5s;
- animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
