@@ -2,7 +2,7 @@
   height: 4.6em;
   margin: 0.5rem 0.3rem 0.3rem;
   overflow: hidden;
-  background-color: rgb(97, 97, 97);
+  background-color: rgb(81, 81, 81);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,7 +12,21 @@
   transition: transform 150ms ease-in-out;
   position: sticky;
   top: 0;
+  animation-name: navbarEffect;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  transform: rotate(6deg);
   z-index: 10;
+}
+
+@keyframes navbarEffect {
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 div.nav-bar--hidden {
