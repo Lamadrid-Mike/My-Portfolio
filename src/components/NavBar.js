@@ -34,24 +34,24 @@ function NavBar() {
         <SocialIcons
           name="github"
           link="https://github.com/Lamadrid-Mike"
-          icon={<GoMarkGithub />}
+          icon={<GoMarkGithub fontSize={25} />}
         />
         <SocialIcons
           name="instagram"
           link="https://www.instagram.com/trapcodes/"
-          icon={<GrInstagram />}
+          icon={<GrInstagram fontSize={25} />}
         />
 
         <SocialIcons
           name="codewars"
           link="https://www.codewars.com/users/trapcodes"
-          icon={<SiCodewars />}
+          icon={<SiCodewars fontSize={25} />}
         />
 
         <SocialIcons
           name="linkedin"
           link="https://www.linkedin.com/in/mike-lamadrid-701521244/"
-          icon={<BsLinkedin />}
+          icon={<BsLinkedin fontSize={25} />}
         />
       </div>
     </div>
