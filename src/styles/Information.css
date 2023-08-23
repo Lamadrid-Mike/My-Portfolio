@@ -63,23 +63,27 @@
 }
 
 @keyframes pulseEffect {
-  from {
-    box-shadow: 0 0 5px 0px #51ff0d;
+  0% {
+    background-color: white;
+    box-shadow: none;
+    opacity: 0.5;
   }
-  to {
+  100% {
     box-shadow: 0 0 12px 0px #51ff0d;
+    background-color: #51ff0d;
+    opacity: 1;
   }
 }
 
 .information-container__circular-dot {
-  height: 8px;
-  width: 8px;
+  height: 7px;
+  width: 7px;
   background-color: #51ff0d;
+  box-shadow: 0 0 12px 0px #51ff0d;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
   animation-name: pulseEffect;
   animation-timing-function: ease-in-out;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
