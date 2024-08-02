@@ -8,6 +8,7 @@ import clockInLogo from "../img/clock-in-app.png";
 import guessGame from "../img/guess-game.png";
 import adhocProject from "../img/adhoc-project.png";
 import tipApp from "../img/tip-app.png";
+import cubeImage from "../img/cube.png";
 
 const Projects = function () {
   return (
@@ -17,13 +18,27 @@ const Projects = function () {
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
+          transition={{ duration: 0.1 }}
+        >
+          <Cards
+            link="https://benjamin-cube.netlify.app/"
+            src={cubeImage}
+            info="Cube Project"
+            about="
+This cube project was developed for a client seeking a dynamic slideshow to showcase their impactful programs. It involved complex CSS and presented a significant challenge."
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
           transition={{ duration: 0.3 }}
         >
           <Cards
             link="https://codes-tip.netlify.app/"
             src={tipApp}
             info="Tip App"
-            about="I built this simple app, every time I'm free cool ideas come to my mind, and I try to make it happen. this app will split a check per person as well the tip you desire to leave."
+            about="app for splitting bills and tips! Whenever I have a free moment and a fun idea, I dive in and make it happen. Now you can easily share the tab and add that extra tip with ease."
           />
         </motion.div>
         <motion.div

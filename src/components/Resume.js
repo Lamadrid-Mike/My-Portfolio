@@ -1,15 +1,9 @@
 import React from "react";
 import "../styles/resume.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faPhone,
-  faUser,
-  faDownload,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 import avatar from "../img/profile.jpg";
 import { motion } from "framer-motion";
-import PDFdocument from "../components/my-resume.pdf";
 
 class Resume extends React.Component {
   constructor(props) {
@@ -18,18 +12,6 @@ class Resume extends React.Component {
       btnPressed: false,
     };
   }
-
-  resumeBtn = () => {
-    fetch(PDFdocument).then((response) => {
-      response.blob().then((blob) => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "my-resume.pdf";
-        alink.click();
-      });
-    });
-  };
 
   render() {
     return (
@@ -66,12 +48,7 @@ class Resume extends React.Component {
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
           transition={{ duration: 0.6 }}
-        >
-          <button onClick={this.resumeBtn} className="resume-btn">
-            <FontAwesomeIcon className="icon" icon={faDownload} />
-            My Resume
-          </button>
-        </motion.div>
+        ></motion.div>
       </div>
     );
   }
