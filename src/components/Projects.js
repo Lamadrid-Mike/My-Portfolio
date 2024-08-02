@@ -9,6 +9,7 @@ import guessGame from "../img/guess-game.png";
 import adhocProject from "../img/adhoc-project.png";
 import tipApp from "../img/tip-app.png";
 import cubeImage from "../img/cube.png";
+import crystalImage from "../img/crystal-timer.png";
 
 const Projects = function () {
   return (
@@ -19,6 +20,19 @@ const Projects = function () {
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
           transition={{ duration: 0.1 }}
+        >
+          <Cards
+            link="https://jazzy-treacle-e0ad5b.netlify.app/"
+            src={crystalImage}
+            info="Event Timer"
+            about="This customer wanted a fun event timer on their website: a red square that spins around and shows the date when you hover over it. They also want to be able to adjust the dates."
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ duration: 0.2 }}
         >
           <Cards
             link="https://benjamin-cube.netlify.app/"

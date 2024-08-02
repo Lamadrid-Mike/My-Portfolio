@@ -60,7 +60,7 @@ export default function BasicTabs() {
             textColor="inherit"
           >
             <Tab label="Projects" {...a11yProps(0)} />
-            <Tab label="Resume" {...a11yProps(1)} />
+            <Tab label="Contact" {...a11yProps(1)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
