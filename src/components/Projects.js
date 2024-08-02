@@ -2,11 +2,9 @@ import "../styles/Projects.css";
 import Cards from "./Cards";
 import { motion } from "framer-motion";
 import jsLogo from "../img/super-m.png";
-import reactLogo from "../img/miracles.png";
 import todoLogo from "../img/todo-logo.png";
 import clockInLogo from "../img/clock-in-app.png";
 import guessGame from "../img/guess-game.png";
-import adhocProject from "../img/adhoc-project.png";
 import tipApp from "../img/tip-app.png";
 import cubeImage from "../img/cube.png";
 import crystalImage from "../img/crystal-timer.png";
@@ -80,30 +78,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
             about="This was a small project I decided to make also practice some figma, and wireframing ideas. I still working on it, and I will be adding more features soon."
           />
         </motion.div>
-        <motion.div
-          initial={{ x: "-100%" }}
-          animate={{ x: "0%" }}
-          transition={{ duration: 0.6 }}
-        >
-          <Cards
-            link="https://nexustential.github.io/MiraclesMassage"
-            src={reactLogo}
-            info="Miracles-Massage"
-            about="This was one of my first projects, after I was done with my Bootcamp, we created this static website really well designed, I was in charge of the navbar and the mobile-friendly feature."
-          />
-        </motion.div>
-        <motion.div
-          initial={{ x: "-100%" }}
-          animate={{ x: "0%" }}
-          transition={{ duration: 0.7 }}
-        >
-          <Cards
-            link="https://adhoc-project.netlify.app/"
-            src={adhocProject}
-            info="Adhoc Project"
-            about="This is just a HTML, CSS project I decided to make a long time ago for practicing purposes, I been modifying the website little by little."
-          />
-        </motion.div>
+
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}

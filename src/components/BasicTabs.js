@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Resume from "./Resume";
 import Projects from "./Projects";
+import Designs from "./Designs";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -60,13 +61,17 @@ export default function BasicTabs() {
             textColor="inherit"
           >
             <Tab label="Projects" {...a11yProps(0)} />
-            <Tab label="Contact" {...a11yProps(1)} />
+            <Tab label="Web designs" {...a11yProps(1)} />
+            <Tab label="Contact" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
           <Projects />
         </TabPanel>
         <TabPanel value={value} index={1}>
+          <Designs />
+        </TabPanel>
+        <TabPanel value={value} index={2}>
           <Resume />
         </TabPanel>
       </Box>

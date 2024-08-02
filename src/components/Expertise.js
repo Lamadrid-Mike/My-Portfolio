@@ -3,7 +3,7 @@ import "../styles/Expertise.css";
 const skills = [
   "html",
   "javascript",
-  "node.js",
+  "canva",
   "express.js",
   "mongodb",
   "css",
@@ -12,7 +12,7 @@ const skills = [
   "figma",
   "scss",
   "php",
-  "procreate",
+  "wordpress",
 ];
 
 const Expertise = () => {
