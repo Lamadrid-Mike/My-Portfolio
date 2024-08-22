@@ -17,7 +17,7 @@ const Projects = function () {
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.4 }}
         >
           <Cards
             link="https://jazzy-treacle-e0ad5b.netlify.app/"
@@ -30,7 +30,7 @@ const Projects = function () {
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.5 }}
         >
           <Cards
             link="https://benjamin-cube.netlify.app/"
@@ -44,7 +44,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.6 }}
         >
           <Cards
             link="https://codes-tip.netlify.app/"
@@ -56,7 +56,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.7 }}
         >
           <Cards
             link="https://supermproject.netlify.app/index.html"
@@ -69,7 +69,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.8 }}
         >
           <Cards
             link="https://guess-flag-game.netlify.app/"
@@ -82,7 +82,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.9 }}
         >
           <Cards
             link="https://oop-todo-app.netlify.app/"
@@ -94,7 +94,7 @@ This cube project was developed for a client seeking a dynamic slideshow to show
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ duration: 0.9 }}
+          transition={{ duration: 1 }}
         >
           <Cards
             link="https://punch-in-app.netlify.app/"
