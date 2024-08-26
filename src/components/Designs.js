@@ -5,6 +5,7 @@ import reactLogo from "../img/miracles.png";
 import adhocProject from "../img/adhoc-project.png";
 import csrbenefits from "../img/csr-benefits.png";
 import oneplanet from "../img/one-planet.png";
+import barmenu from "../img/bar-menu.png";
 
 export default function Designs() {
   return (
@@ -56,7 +57,7 @@ export default function Designs() {
         <Cards
           link="https://csrbenefitshub.com"
           src={csrbenefits}
-          info="Csr benefits"
+          info="CSR benefits"
           about="I contributed to a WordPress project utilizing Avada theme. This experience was enjoyable and provided valuable insights into the drag-and-drop interface of WordPress"
         />
       </motion.div>
@@ -71,6 +72,19 @@ export default function Designs() {
           src={oneplanet}
           info="One planet"
           about="I contributed to another WordPress project by developing various website sections and converting PDF image files into functional web pages."
+        />
+      </motion.div>
+
+      <motion.div
+        initial={{ x: "-100%" }}
+        animate={{ x: "0%" }}
+        transition={{ duration: 1 }}
+      >
+        <Cards
+          link="https://barmenusample.netlify.app/"
+          src={barmenu}
+          info="Bar menu"
+          about="I have observed that some restaurants use QR codes to display their menus. I plan to replicate this approach by incorporating a QR code for similar purposes."
         />
       </motion.div>
     </div>
