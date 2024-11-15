@@ -60,16 +60,16 @@ export default function BasicTabs() {
             aria-label="basic tabs example"
             textColor="inherit"
           >
-            <Tab label="Projects" {...a11yProps(0)} />
-            <Tab label="Web designs" {...a11yProps(1)} />
+            <Tab label="Web designs" {...a11yProps(0)} />
+            <Tab label="Projects" {...a11yProps(1)} />
             <Tab label="Contact" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <Projects />
+          <Designs />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <Designs />
+          <Projects />
         </TabPanel>
         <TabPanel value={value} index={2}>
           <Resume />
