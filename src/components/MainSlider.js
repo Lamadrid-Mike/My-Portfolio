@@ -20,6 +20,12 @@ const images = [
     title: "Custom websites",
     description: "Just an example",
   },
+  {
+    url: require("../img/slider/image-5.jpg"),
+    title: "Website Maintenance",
+    description:
+      "Ensure your website runs smoothly with our maintenance services. We offer regular updates, security checks, performance optimization",
+  },
 ];
 
 export default function MainSlider() {
@@ -74,7 +80,13 @@ export default function MainSlider() {
             >
               {img.description}
             </p>
-            <button className="learn-more__btn">Learn More</button>
+            <button
+              className={`learn-more__btn ${
+                index === currIndex ? "active" : ""
+              }`}
+            >
+              Learn More
+            </button>
           </div>
         </div>
       ))}

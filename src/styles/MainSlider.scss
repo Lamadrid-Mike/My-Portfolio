@@ -6,6 +6,7 @@
   width: 100%;
   height: 90vh;
   overflow: hidden;
+  margin-bottom: 1.2rem;
 
   .slider__btn {
     position: absolute;
@@ -47,13 +48,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  z-index: -1;
   &.active {
     opacity: 1;
+    z-index: 1;
   }
 }
 
 .slider__header {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 100;
   font-family: inherit;
   opacity: 0;
   transform: translateY(100px);
@@ -70,8 +75,10 @@
   opacity: 0;
   font-family: inherit;
   font-size: 1.1rem;
+  font-weight: 100;
   transform: translateY(100px);
   transition: opacity, transform 1.3s ease;
+  line-height: 1.4rem;
 
   &.active {
     opacity: 1;
@@ -85,6 +92,9 @@
   text-align: center;
 
   .learn-more__btn {
+    z-index: 10;
+    opacity: 0;
+    color: white;
     padding: 0.8rem 1.6rem;
     border: 2px solid white;
     font-family: inherit;
@@ -93,5 +103,15 @@
     font-weight: 800;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0);
+    transition: opacity, transform 1.5s ease;
+    transform: translateY(120px);
+    &.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
