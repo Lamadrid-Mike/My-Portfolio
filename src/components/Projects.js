@@ -5,7 +5,7 @@ import projectsData from "../data/projectsData";
 const Projects = function () {
   return (
     <div>
-      <h1 className="about-h1">Projects...</h1>
+      <h1 className="about-h1">Projects</h1>
       <div className="projects-container">
         {projectsData.map((e, i) => (
           <Cards

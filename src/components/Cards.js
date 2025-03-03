@@ -7,11 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Cards(props) {
   return (
-    <motion.div
-      initial={{ x: "-100%" }}
-      animate={{ x: "0%" }}
-      transition={{ duration: props.duration }}
-    >
+    <motion.div initial={{ x: "-100%" }} animate={{ x: "0%" }}>
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia

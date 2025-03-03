@@ -5,8 +5,9 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Resume from "./Resume";
-import Projects from "./Projects";
 import Designs from "./Designs";
+import webDesignData from "../data/webDesigns";
+import projectsData from "../data/projectsData";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,10 +67,10 @@ export default function BasicTabs() {
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <Designs />
+          <Designs data={webDesignData} tabTitle="Web Designs" />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <Projects />
+          <Designs data={projectsData} tabTitle="Projects" />
         </TabPanel>
         <TabPanel value={value} index={2}>
           <Resume />

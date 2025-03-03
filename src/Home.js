@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./components/NavBar";
-
 import BasicTabs from "./components/BasicTabs";
 import MainSlider from "./components/MainSlider";
 

@@ -29,3 +29,23 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.observer-visible {
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+
+.card-container {
+  opacity: 0;
+}
